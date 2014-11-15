@@ -1,0 +1,19 @@
+@(loginForm: Form[Option[authentication.Account]])
+
+@import helper._
+
+@main("Login form"){
+    @helper.form(routes.Application.authenticate){
+    <input type="text" name="email" id="login-email" placeholder="Enter email" />
+    <input type="password" name="password" id="login-password" />
+    <input type="submit" name="login" id="login-btn" value="Login" />
+    }
+
+
+    <p>
+        <a href="@routes.Application.register"> Register here</a>
+    </p>
+
+}
+
+

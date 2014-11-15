@@ -1,0 +1,23 @@
+@(registerForm: Form[UserFormWrapper])
+
+@import helper._
+
+@main("Login form"){
+    @helper.form(routes.Application.submitRegisteration){
+     <input type="text" name="firstName" id="first-name" placeholder="First name" />
+     <input type="text" name="lastName" id="last-name" placeholder="Last name" />
+     <input type="text" name="username" id="username" placeholder="Username" />
+     <input type="password" name="password" id="password" placeholder="password" />
+     <input type="email" name="email" id="login-email" placeholder="Enter email" />
+     <input type="phonenumber" name="phoneNumber" id="phone-number" placeholder="Phone number" />
+
+
+
+    <input type="submit" name="register" id="register-btn" value="Register" />
+
+    }
+
+}
+
+
+
