@@ -1,5 +1,7 @@
-Mock-app
-=========
+### Authentication with t2v
 
 Mock-app is a tutorial on using t2v/play2-auth module to authenticate a user.
+
+The application is based on version 2.2.0 of play framework.
+
 
